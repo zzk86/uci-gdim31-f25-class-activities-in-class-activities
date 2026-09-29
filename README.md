@@ -1,7 +1,8 @@
 # in-class-activities
 ## Devlogs
 ### W1
-Write your W1 activity Devlog here.
+The camera won't follow the cat anymore
+https://zukangz.itch.io/1
 
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
