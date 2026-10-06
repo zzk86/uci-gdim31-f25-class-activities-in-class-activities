@@ -5,7 +5,9 @@ The camera won't follow the cat anymore
 https://zukangz.itch.io/1
 
 ### W2
-Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
+1.Because they are fractional numbers.
+2.Because _bounce is whole number without floats
+3.It didn't have a ;
 
 ## Open-Source Assets
 ### W1
