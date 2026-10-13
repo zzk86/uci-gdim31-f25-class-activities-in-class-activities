@@ -17,6 +17,8 @@ https://zukangz.itch.io/1
 3.Parameters(input):the time you press the key;The game must compare this exact press time against the target beat time to check for a hit.
   return type(output):true or false;We only need a simple yes‑or‑no answer to tell if the player hit the beat correctly.
 
+My metaphor for classes and components is a cookie cutter. The class is the cookie cutter template, and components are the individual cookies stamped out from it. Member variables are the cookie’s traits like size and number of chocolate chips. Methods are actions the cookie can perform, such as baking or adding sprinkles. One template (class) can create many unique cookies (components).
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
