@@ -23,6 +23,15 @@ My metaphor for classes and components is a cookie cutter. The class is the cook
 
 Part3
 Because each bounce overwrite the RGB repeatedly.
+
+### MG3
+int:0 float:0.0f bool:false string:null 
+Update()is a Unity built-in message function.Unity automatically calls Update() once every frame.Should not be manually called Update() in the code. The Unity engine invokes it automatically.
+The Timer class handles counting down time.
+1. We call BeginTimer() to start the timer and set its total duration.
+2. Inside the Update() method of KickWeapon / GameManager, we check the timer every frame with IsFinished().
+3. If IsFinished() returns true, we run our logic: disable the kick weapon object or trigger GameOver.
+4. The Update() method runs every frame, so we can continuously check the timer state.
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
