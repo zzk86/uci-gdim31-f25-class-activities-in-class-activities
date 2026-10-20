@@ -24,6 +24,10 @@ My metaphor for classes and components is a cookie cutter. The class is the cook
 Part3
 Because each bounce overwrite the RGB repeatedly.
 
+### W4
+Table 9
+I add colliders to cat and soccer ball.The soccer ball is trigger on the goal.
+My game runs well
 ### MG3
 int:0 float:0.0f bool:false string:null 
 Update()is a Unity built-in message function.Unity automatically calls Update() once every frame.Should not be manually called Update() in the code. The Unity engine invokes it automatically.
