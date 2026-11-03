@@ -28,6 +28,15 @@ Because each bounce overwrite the RGB repeatedly.
 Table 9
 I add colliders to cat and soccer ball.The soccer ball is trigger on the goal.
 My game runs well
+
+### W5
+1.A variable to store the position of the target GameObject the deer will walk towards. It needs to be a Transform and must have the [SerializeField] attribute so it can be tuned in the Inspector.
+2.Start() 
+  Update()
+3.Start(): It should use GetComponent<NavMeshAgent>() to find the NavMeshAgent component attached to the Deer and assign it to the agent variable.
+Update(): It should use the agent variable to continuously tell the deer where to walk by calling agent.SetDestination. This ensures the deer keeps walking towards the target as long as the game is running.
+
+
 ### MG3
 int:0 float:0.0f bool:false string:null 
 Update()is a Unity built-in message function.Unity automatically calls Update() once every frame.Should not be manually called Update() in the code. The Unity engine invokes it automatically.
