@@ -36,6 +36,20 @@ My game runs well
 3.Start(): It should use GetComponent<NavMeshAgent>() to find the NavMeshAgent component attached to the Deer and assign it to the agent variable.
 Update(): It should use the agent variable to continuously tell the deer where to walk by calling agent.SetDestination. This ensures the deer keeps walking towards the target as long as the game is running.
 
+### W7
+https://docs.google.com/document/d/1crDX6_ljdbrT8OOdQbNwN7QxS_CrQY8VUW1fGK32XYQ/edit?tab=t.sx50njaqwrq7
+
+1. Describe the specific algorithm or logic steps.Used for tweaking values in the Unity Inspector or assigning references Usually [SerializeField] private or public.Private fields: Used for internal logic and state 
+2.Describe the specific algorithm or logic steps (pseudo-code).
+Unity-provided methods: Explain why you are using them.
+Start() / Awake(): For initialization.
+Update(): For per-frame input detection .
+FixedUpdate(): For physics calculations .
+OnCollisionEnter() / OnTriggerEnter(): For handling collisions or trigger events.
+Custom methods: Explain how you are encapsulating logic to keep code clean.
+Move(): Wraps the movement logic so Update() stays readable.
+TakeDamage(): Handles the damage logic.
+3.Describe the specific algorithm or logic steps (pseudo-code).
 
 ### MG3
 int:0 float:0.0f bool:false string:null 
