@@ -51,6 +51,9 @@ Move(): Wraps the movement logic so Update() stays readable.
 TakeDamage(): Handles the damage logic.
 3.Describe the specific algorithm or logic steps (pseudo-code).
 
+### W8？
+The code used Vector3.forward, which is the world's z-axis — a fixed direction. That only works while the Muskrat faces forward. Once it turns (for example on a bubble), it would slide sideways instead of walking forward. The fix is transform.forward, so it always moves in the direction it is facing.
+
 ### MG3
 int:0 float:0.0f bool:false string:null 
 Update()is a Unity built-in message function.Unity automatically calls Update() once every frame.Should not be manually called Update() in the code. The Unity engine invokes it automatically.
